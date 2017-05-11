@@ -13,12 +13,13 @@ calculateInterestRateInterface = function() {
     if (quantity) {
         alert("El dinero en " + years + " años en la cuenta del cliente " + name + " será de " + quantity + "€");
     }
+    // vaya cacota
 }
 
 createClientInterface = function() {
     var name = prompt("Introduce el nombre del cliente");
     while (!name || name == "") {
-        name = prompt("Introduce el nombre del cliente");
+
     }
     var quantity = prompt("Introduce el deposito inicial para la cuenta");
     while (!quantity || isNaN(quantity)) {
